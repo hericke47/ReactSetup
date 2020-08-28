@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import rocketseatLogo from '../assets/rocketseat.svg'
+import RocketseatLogo from '../assets/rocketseat.svg'
 
 const Home: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
-        <img src={rocketseatLogo} alt="" />
+        <RocketseatLogo />
 
         <h1>Hello World</h1>
       </main>
